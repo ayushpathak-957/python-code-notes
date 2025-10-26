@@ -50,9 +50,9 @@ print("p1.name =", p1.name, ", p2.name =", p2.name)
 print("p1.species =", p1.species, ", p2.species =", p2.species, "\n")
 
 print("🔄  Methods in Depth")
-print("➡️ Instance methods: use 'self', can access/modify instance attributes")
-print("➡️ Class methods: use @classmethod and 'cls', can access/modify class attributes")
-print("➡️ Static methods: use @staticmethod, no self or cls, utility functions\n")
+print("➡️  Instance methods: use 'self', can access/modify instance attributes")
+print("➡️  Class methods: use @classmethod and 'cls', can access/modify class attributes")
+print("➡️  Static methods: use @staticmethod, no self or cls, utility functions\n")
 
 class Student:
     school = "XYZ School"
