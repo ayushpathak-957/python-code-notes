@@ -51,7 +51,7 @@ print(s1.Clg_name,s2.Clg_name,Student.Clg_name,"only changed for s1\n")
 # 🔹 Class Variables
 # • Defined directly inside the class, outside any method.
 # • Shared by all objects of the class.
-# • Example: school_name = "ABC School"
+# • Example: Clg_name = "KIET"
 
 # 🔹 Changing Variables
 # • Changing a class variable through the class name affects all objects.

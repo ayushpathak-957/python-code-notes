@@ -12,7 +12,7 @@ class Student:
         print(f"Name: {self.name}, Marks: {self.marks}")
 
 s1 = Student("Ayush", 95)
-s2 = Student("Riya", 89)
+s2 = Student("Harshit", 89)
 
 s1.show_details()
 s2.show_details()
@@ -44,10 +44,15 @@ print("-" * 50)
 print("3️⃣\tStatic Method\n")
 
 class MathOps:
+    def __init__(self):
+        pass
+
     @staticmethod
     def add(a, b):
         return a + b
-
+a = MathOps()
+print(a)
+print(a.add(5,3))
 print("Sum:", MathOps.add(5, 3))
 
 print("-" * 50)
